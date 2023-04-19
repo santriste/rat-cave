@@ -1,0 +1,176 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+body {
+	margin: 0;
+	background-color: rgb(216, 180, 250);
+}
+
+.novedad {
+	display: flex;
+	width: 100%;
+	height: 25px;
+	background-color: #3d1091;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	left: 0;
+	right: 0;
+	height: 50px;
+	background-color: #fff;
+	border-bottom: 1px solid #000;
+}
+
+ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	margin-right: 20px;
+}
+
+ul li a {
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+}
+
+.logo {
+	margin-top: 20px;
+	margin-right: 100px;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.juegotrend {
+	margin-top: 20px;
+	position: relative;
+	align-items: center;
+	text-align: center;
+}
+
+.juegotrend img {
+	width: 927px;
+	height: 439px;
+	border-radius: 30%;
+	max-width: 927px;
+	max-height: 439px;
+	
+}
+
+.precio {
+	position: absolute;
+	top: 20%;
+	left: 65%;
+	width: 100px;
+	height: 100px;
+	background-color: #ffd800;
+	color: #000000;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 100px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	border-style: outset;
+}
+
+.container-juegos {
+	margin-top: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-gap: 10px;
+	flex-basis: 30%;
+}
+
+.container-juegos img {
+	max-width: 33.33%;
+	width: 25%;
+	border-radius: 60px;
+	height: 350px;
+	object-fit: cover;
+	margin: 5px;
+	max-width: 100%;
+}
+
+.footer {
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+	color: #ddd;
+	display: flex;
+	justify-content: center;
+}
+
+.redes {
+	margin-top: 4rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.redes a {
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	margin-left: 10px;
+	overflow: hidden;
+	border: 2px solid #fff;
+	transition: all 0.3s ease;
+}
+
+.redes a:hover {
+	transform: scale(1.2);
+	border-color: #ddd;
+}
+
+.redes img {
+	max-width: 70%;
+	margin-left: 17%;
+	margin-top: 15%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+@media only screen and (max-width: 768px) {
+	.container {
+		flex-wrap: wrap;
+	}
+
+}
+.nocontact{
+	margin-top: 5%;
+	display: flex;
+	justify-content: center;
+	font-weight: bold;
+	font-size: 20px;
+}
